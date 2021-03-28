@@ -1,1 +1,23 @@
 
+#!/usr/bin/env python3
+
+import numpy as np
+
+
+class Neuron: 
+    
+  def __init__(self,nx):
+    if type(nx)!="int": 
+      raise TypeError("nx must be an integer")
+    if nx<1 : 
+      raise ValueError("nx must be a positive integer")
+    
+    #Attributes
+    __self.w = np.random.randn()
+    __self.b = 0
+    __self.A = 0
+    
+  def forward_prop(self, X):
+    
+    
+    
