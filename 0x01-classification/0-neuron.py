@@ -1,4 +1,6 @@
 #0-neuron.py
+import numpy as np
+
 class Neuron : 
   def __init__(self,nx) :
     if type(nx)!="int" : 
