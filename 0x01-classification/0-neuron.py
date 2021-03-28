@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#0-neuron.py
 
 import numpy as np
 
