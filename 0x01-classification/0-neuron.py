@@ -12,7 +12,7 @@ class Neuron:
       raise ValueError("nx must be a positive integer")
     
     #Attributes
-    self.w = np.random.randn()
+    self.w = np.random.randn(2,2,2)
     self.b = 0
     self.A = 0
     
