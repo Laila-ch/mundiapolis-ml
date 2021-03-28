@@ -9,7 +9,7 @@ class Neuron:
     if type(nx)!="int": 
       raise TypeError("nx must be an integer")
     if nx<1 : 
-      raise TypeError("nx must be a positive integer")
+      raise ValueError("nx must be a positive integer")
     
     #Attributes
     self.w = np.random.normal(3, 2.5, size=(2, 4))
