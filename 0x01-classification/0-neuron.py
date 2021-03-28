@@ -1,4 +1,5 @@
 #0-neuron.py
+import numpy as np
 
 
 class Neuron : 
@@ -8,6 +9,7 @@ class Neuron :
       raise Exception("nx must be an integer")
     if nx<1 : 
       raise Exception("nx must be a positive integer")
-      self.b = 0
-      self.A = 0
+    self.w = np.random.normal(3, 2.5, size=(2, 4))
+    self.b = 0
+    self.A = 0
 
